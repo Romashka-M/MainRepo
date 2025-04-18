@@ -1,0 +1,148 @@
+@import url('fonts.css');
+body {
+    background-color: #131313;
+}
+.leftDiv__hero-header, 
+.VB-header {
+    color: #E3B873;
+    font-family: 'Yeseva One', sans-serif ;
+}
+.leftDiv__varblocks-text,
+.VB_city-text,
+.VB_city_district-text,
+.VB_apartArea-text,
+.VB_repTime-text,
+.VB_repCost-text {
+    color: #FFFFFF;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    gap: 50px;
+}
+body button:hover {
+    cursor: pointer;
+}
+.leftDiv {
+    margin-left: 134.55px;
+    margin-top: 176.36px;
+    display: flex;
+    flex-direction: column;
+    width: 442px;
+
+}
+.leftDiv__hero{
+    height: 66px;
+    width: 253px;
+    display: flex;
+    row-gap: 34,5px ;
+    justify-content: space-between;
+}
+    
+.leftDiv__hero-header {
+    font-size: 27px;
+    line-height: 138.6%;
+    letter-spacing: -7%;
+}
+.headerLine {
+    margin-top: 51.64px;
+}
+.leftDiv__varblocks {
+    margin-top: 34px;
+}
+.leftDiv__varblocks-text {
+    font-size: 14px;
+    line-height: 191%;
+    font-weight: thin;
+}
+.VBlocks {
+    display: flex;
+    flex-direction: column;
+
+}
+.VBlockRw {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 100%;
+    align-content: space-between;
+}
+
+.VB_apartArea,
+.VB_city,
+.VB_repCost,
+.VB_repTime {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    margin-top: 34px;
+    width: 195px;
+}
+.sliderBox {
+    margin-top: 79px;
+    margin-bottom: 124px;
+    width: 205px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sliderBox button {
+    background: none;
+    border: none;
+}
+
+.dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #BBB;
+    border-radius: 50%;
+    margin: 0.5px;
+    cursor: pointer;
+}
+.dot.active {
+    background-color: #FFF;
+}
+.leftArrow,
+.rightArrow {
+    padding-top: 5px;
+}
+.rightDiv {
+    margin-top: 107px;
+}
+.nameLine {
+    width: 623px;
+    display: flex;
+    justify-content: space-between;
+}
+.name {
+    font-family: 'Yeseva One';
+    color: rgb(255, 255, 255, 0.3);
+    font-size: 14px;
+    line-height: 138.6%;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 6.5;
+    cursor: pointer;
+}
+.name.active {
+    color: #E3B873;
+    border-bottom: solid #E3B873;
+    border-width: thin;
+    
+}
+.mainImgBlock {
+    margin-top: 45px;
+    position: relative;
+    overflow: hidden;
+}
+.slide {
+    object-fit: cover;
+    display: none;
+}
+.slide.active {
+    display: block;
+}

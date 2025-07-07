@@ -1,0 +1,51 @@
+body {
+    margin-left: 30%;
+
+}
+h1 {
+    margin-bottom: 10rem;
+    text-decoration: underline;
+    text-shadow: 100px;
+}
+.btn {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-content: center;
+    background-color: greenyellow;
+    border: solid greenyellow;
+    border-width:medium;
+    border-radius: 30px;
+    align-items: center;
+    gap: 3rem;
+}
+.btn:hover {
+    background-color: yellow;
+}
+.btnText {
+    font-family: serif;
+    font-size: 2rem;
+    font-weight: bold;
+    text-wrap-mode: nowrap;
+    padding: 0.3rem;
+}
+.icon1 {
+    display: inline;
+}
+.icon2 {
+    display: none;
+    animation-duration: 6s;
+    animation-name: magic;
+    animation-iteration-count: infinite;
+}
+@keyframes magic {
+    from {
+        transform: rotate(0);
+    }
+    to {
+        transform: rotate(1800deg);
+    }
+}

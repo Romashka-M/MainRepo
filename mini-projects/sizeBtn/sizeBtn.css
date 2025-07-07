@@ -1,0 +1,32 @@
+.header {
+    margin-bottom: 10rem;
+    text-decoration: underline;
+    text-shadow: 100px;
+    margin-left: 30%;
+}
+.btn {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-content: center;
+    background-color: greenyellow;
+    border: solid greenyellow;
+    border-width:medium;
+    border-radius: 30px;
+    align-items: center;
+    gap: 3rem;
+    margin-left: 40%;
+}
+.btn:hover {
+    background-color: yellow;
+}
+.btnText {
+    font-family: serif;
+    font-size: 2rem;
+    font-weight: bold;
+    text-wrap-mode: nowrap;
+    padding: 0.3rem;
+}
